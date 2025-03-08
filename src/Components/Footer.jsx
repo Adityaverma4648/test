@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
 
         {/* poppins */}
-        <div className="text-white text-[18px] flex justify-center items-center">
+        <div className="text-white text-[18px] flex justify-center items-center poppins">
           rehanurraihan@gmail.com
           <FaArrowUp className="ms-2 rotate-45" color="#fff" size={16} />
         </div>

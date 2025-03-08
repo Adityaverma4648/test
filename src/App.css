@@ -7,6 +7,11 @@
   font-style: normal;
 }
 
+.poppins{
+  font-family: "Poppins" ,sans-serif;
+  font-style: normal;
+}
+
 .text-stroke-3 {
   text-shadow: -1px -1px 0 #cbcbcb, 1px -1px 0 #cbcbcb, -1px 1px 0 #cbcbcb,
     1px 1px 0 #cbcbcb;

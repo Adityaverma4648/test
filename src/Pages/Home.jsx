@@ -639,7 +639,7 @@ const Home = () => {
 
                 {/* poppins */}
                 {activeAnswer === index && (
-                  <div className="text-[18px] text-[#CBCBCB]">{d.answer}</div>
+                  <div className="text-[18px] text-[#CBCBCB] poppins">{d.answer}</div>
                 )}
               </div>
             );
