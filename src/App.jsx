@@ -12,6 +12,7 @@ import CaseStudy from "./Pages/CaseStudy";
 //  importing componenets
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import ReadBlog from "./Pages/ReadBlog";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/case-study/:index" element={<CaseStudy />} />
+          <Route path="/read-blogs/:index" element={<ReadBlog />} />
+
         </Routes>
         <Footer />
       </Router>

@@ -483,7 +483,7 @@ const Home = () => {
                 key={index}
                 className="w-full mb-[32px] flex md:flex-row flex-col justify-center"
               >
-                <div className="md:min-w-[286px] w-full me-[32px]">
+                <div className="lg:w-[286px] md:min-w-[286px] w-full me-[32px]">
                   <img className="w-full" src={d.image} alt="blog-image" />
                 </div>
                 <div className="flex-grow-1 text-white flex justify-between items-center">
