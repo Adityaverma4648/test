@@ -4,15 +4,15 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 //  importing pages here
 import Home from "./Pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Projects from "./pages/Projects";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
+import Projects from "./Pages/Projects";
 import CaseStudy from "./Pages/CaseStudy";
+import ReadBlog from "./Pages/ReadBlog";
 
 //  importing componenets
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import ReadBlog from "./Pages/ReadBlog";
 
 function App() {
   return (
