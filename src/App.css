@@ -1,4 +1,13 @@
-.syne{
-    font-family: "Syne", sans-serif;
-    font-style: normal;
+::-webkit-scrollbar{
+    display: none;
+}
+
+.syne {
+  font-family: "Syne", sans-serif;
+  font-style: normal;
+}
+
+.text-stroke-3 {
+  text-shadow: -1px -1px 0 #cbcbcb, 1px -1px 0 #cbcbcb, -1px 1px 0 #cbcbcb,
+    1px 1px 0 #cbcbcb;
 }

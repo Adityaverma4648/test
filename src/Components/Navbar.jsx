@@ -22,11 +22,11 @@ const Navbar = () => {
         </div>
 
         <div className="flex-1 flex-grow-1 sm:flex hidden justify-center items-center">
-          {navLinks?.map((d) => {
+          {navLinks?.map((d,index) => {
             const isActive = location.pathname === d.route;
             return (
               <Link
-                key={d.route}
+                key={index}
                 to={d.route}
                 className={`h-[36px] w-[106px] rounded-[100px] flex justify-center items-center ${
                   isActive ? "bg-white text-black" : ""
